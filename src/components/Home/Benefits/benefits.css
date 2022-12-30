@@ -93,6 +93,10 @@
 
 }
 
+.chng {
+    color: royalblue;
+}
+
 .slick-dots li button, .slick-dots li.slick-active button:before, .slick-dots li button:before {
     color: white !important;
 }

@@ -27,8 +27,8 @@ const Content = () => {
           <li>Scope of the Terms of Conditions </li>
           <li>Definitions and Interpretations</li>
           <li>Internet and Electronic Trading </li>
-          <li>Market Making </li>
           <li>Become a Client and Member </li>
+          <li>Third-Party Links </li>
           <li>Proprietary rights and Trademarks </li>
           <li>Privacy Policy </li>
           <li>Know Your Client </li>
@@ -106,383 +106,94 @@ const Content = () => {
         </p>
         <h2>4. Definitions and Interpretations </h2>
         <p>
+          {" "}
           4.1. Terms stated bellow shall have the following meaning and may be
           used in the singular or plural as appropriate.
         </p>
         <p>
-          “Account” means a personalized trading account of the Client with the
-          Company;{" "}
+          “Account” means a personalized membership account of the Client with
+          the Company;{" "}
         </p>
-        <p>
-          “Account Detailed Report” shall mean a statement of the Clients
-          securities portfolio, open positions, margin requirements, cash
-          deposit etc. at a specific point in time;
-        </p>
-        <p>
-          “Ask Price” means the price at which the Company is willing to sell a
-          CFD;{" "}
-        </p>
-
         <p>
           “Authorized Person” means a person authorized by the Client under a
           power of attorney to give instructions to the Company in relation to
           the Account;{" "}
         </p>
         <p>
-          “Balance” means the sum of the Client Account after the last completed
-          order and deposit/ withdrawal operation made within any period of
-          time;{" "}
-        </p>
-        <p>
-          “Best Execution Policy” means the Company’s prevailing policy
-          available at the Company’s Website regarding best execution when
-          executing client orders;{" "}
-        </p>
-        <p>
-          “Bid Price” means the price at which the Company is willing to buy a
-          CFD;
-        </p>
-        <p>
           “Business Day” means any day on which banks are open for business in
           St. Vincent & the Grenadine;{" "}
         </p>
         <p>
-          “CFD Contract or CFD” means a contract which is a contact of
-          difference by reference to fluctuations in the price of the relevant
-          Underlying Asset;
-          <p />
-          <p>
-            “Client” means a natural or legal person, accepted by the Company as
-            its Client/Member to whom services will be provided by the Company
-            under the Terms;
-          </p>
-          <p>
-            “Collateral” means any securities or other assets deposited with the
-            Company’s Execution Venue;
-          </p>
-          <p>
-            {" "}
-            “Company” means JW Equity Pte. Ltd (SV) Ltd incorporated in
-            Singapore with the UEN: 202220057M;
-          </p>{" "}
-          <p>
-            {" "}
-            “Company’s Website” means www.JayTradz.com or any other website that
-            may be the Company’s website from time to time;{" "}
-          </p>
-          <p>
-            {" "}
-            “Contract” means any contract, whether oral or written, for the
-            purchase or sale of any commodity, security, currency or other
-            financial instruments or property, including any derivative
-            contracts such as options, futures, CFDs or other transactions
-            related thereto, entered into by the Company and the Client;{" "}
-          </p>
-          <p>
-            {" "}
-            “Counterparties” shall mean banks and/or brokers through whom the
-            Company may cover its transactions with Clients;
-          </p>
-          <p>
-            {" "}
-            “Durable Medium” means any instrument which enables the Client to
-            store information in a way accessible for future reference for a
-            period of time adequate for purposes of the information and which
-            allows the unchanged reproduction of the information stored;{" "}
-          </p>
-          <p>“Equity” equals (Balance + Floating Profit & Loss + Swap);</p>{" "}
-          <p>
-            “Event of Default” shall have the meaning given to this term in
-            Clause 14;{" "}
-          </p>
-          <p>
-            “Execution Venue” the counterparty for transactions and holder of
-            the Clients securities or other assets deposited;{" "}
-          </p>
-          <p>
-            {" "}
-            “Floating Profit/Loss” shall mean the unrealized profit (loss) of
-            open positions at current prices of the Underlying Assets;
-          </p>
-          <p>
-            {" "}
-            “Free Margin” means the funds not used as guarantee to open
-            positions, calculated as: Free Margin=Equity-Margin;
-          </p>
-          <p>
-            {" "}
-            “Margin” means the necessary guarantee funds to open positions and
-            maintain Open Positions, as determined in the Spreads and Conditions
-            Schedule;
-          </p>
-          <p>
-            {" "}
-            “Margin Call” when the Margin posted in the margin account is below
-            the minimum margin requirement, the Company’s Execution Venue issues
-            a Margin Call and in this case the Client will have to either
-            increase the Margin that he/she has deposited, or to close out
-            his/her position(s). If the Client does not do any of the
-            aforementioned, the Execution Venue shall have the right to close
-            the positions of the Client;
-          </p>
-          <p>
-            {" "}
-            “Margin Level” means the percentage of Equity to Margin ratio. It is
-            calculated as: Margin Level = (Equity/Necessary Margin) x 100;
-          </p>
-          <p>
-            {" "}
-            “Market Maker” means a dealer in securities or other assets who
-            undertakes to buy or sell at specified prices at all time;
-          </p>
-          <p>
-            {" "}
-            “Market Rules” means the rules, regulations, customs and practices
-            from time to time of any exchange, clearing house or other
-            organization or market involved in the conclusion, execution or
-            settlement of a Contract any exercise by any such exchange, clearing
-            house or other organization or market of any power or authority
-            conferred on it;
-          </p>
-          <p>
-            {" "}
-            “Open Positions” means any position/transaction that has not been
-            closed. For example, an open long position not covered by the
-            opposite short position and vice versa;
-          </p>
-          <p>
-            {" "}
-            “Orders” means any trading transactions executed on the Company’s
-            trading platforms by the Client;
-          </p>
-          <p>
-            {" "}
-            “OTC” shall mean any Contract concerning a commodity, security,
-            currency or other financial instrument or property, including any
-            option, future, or CFD which is not traded on a regulated stock or
-            commodity exchange but “over the counter”;
-          </p>
-          <p>
-            {" "}
-            “Principal” means the individual person or the legal entity which is
-            a party to a transaction;
-          </p>
-          <p>
-            {" "}
-            “Security” means any securities or other assets deposited with the
-            execution venue;
-          </p>
-          <p>
-            {" "}
-            “Services” means the services to be provided by the Company to the
-            Client construed by these Terms. Services is inclusive of any
-            dealing, order routing, advisory or other services which the Company
-            provides from time to time to the Client by remote access via the
-            Internet and which are subject to these Terms;
-          </p>
-          <p>
-            {" "}
-            “Spread” means the difference between the Ask Price and the Bid
-            Price;
-          </p>
-          <p>
-            {" "}
-            “Spreads and Conditions Schedule” means the schedule of spreads,
-            charges, margin, interest and other rates which at any time may be
-            applicable to the Services as determined by the Company on a current
-            basis. The Spreads and Conditions Schedule is available on the
-            Company’s Website and may be supplied to the Client on demand;
-          </p>
-          <p>
-            {" "}
-            “Swap” shall mean the funds withdrawn or added to the Client’s
-            Account from rolling over (transfer) of an open position to the next
-            day;
-          </p>
-          <p>
-            {" "}
-            “Terms” mean these Terms of Conditions governing all the actions
-            that relate to the execution of your trades;
-          </p>
-          <p>
-            {" "}
-            “Trade Confirmation” means a notification from the Company’s trading
-            platform to the Client confirming the Client’s entry into a
-            Contract;
-          </p>
-          <p>
-            {" "}
-            “Trading Platform” means any online trading platform made available
-            to the Client by the Company for placing orders, requesting quotes
-            for trades, receiving price information and market related news as
-            well as having a real-time revaluation of the open positions,
-            through the Internet;
-          </p>
-          <p>
-            {" "}
-            “Underlying Asset” means underlying asset is the financial
-            instrument (e.g., stock, futures, commodity, currency, index) on
-            which a derivative's price is based.
-          </p>
-        </p>
-        <h2>6. Market Making </h2>
-        <p>
-          6.1. The Client is specifically made aware that in certain markets,
-          including the foreign exchange markets, OTC foreign exchange options
-          and CFD Contracts, the Execution Venue may act as a Market Maker.
+          “Client” means a natural or legal person, accepted by the Company as
+          its Client/Member to whom services will be provided by the Company
+          under the Terms;{" "}
         </p>
         <p>
-          6.2. The Company follows the STP execution model with all orders sent
-          to JayTradz.
+          “Company” means JW Equity Pte. Ltd (SV) Ltd incorporated in Singapore
+          with the UEN: 202220057M;{" "}
+        </p>
+        <p>
+          “Company’s Website” means www.JayTradz.com or any other website that
+          may be the Company’s website from time to time;{" "}
+        </p>
+        <p>
+          “Contract” means any contract, whether oral or written, for the
+          purchase or sale of any commodity, security, currency or other
+          financial instruments or property, including any derivative contracts
+          such as options, futures, CFDs or other transactions related thereto,
+          entered into by the Company and the Client;{" "}
+        </p>
+        <p>
+          “Durable Medium” means any instrument which enables the Client to
+          store information in a way accessible for future reference for a
+          period of time adequate for purposes of the information and which
+          allows the unchanged reproduction of the information stored;{" "}
+        </p>
+        <p>
+          “Services” means the services to be provided by the Company to the
+          Client construed by these Terms. Services is inclusive of any dealing,
+          order routing, advisory or other services which the Company provides
+          from time to time to the Client by remote access via the Internet and
+          which are subject to these Terms;{" "}
+        </p>
+        <p>
+          “Terms” mean these Terms of Conditions governing all the actions that
+          relate to the execution of your memberships;
+        </p>
+        <h2>5. Internet and Electronic Service </h2>
+        <p>
+          {" "}
+          a. The Client acknowledges the electronic nature of the Services and
+          the inherent risk that communications by electronic means may not
+          reach their intended destination or may do so much later than intended
+          for reasons outside the Company’s control.
+        </p>{" "}
+        <p>
+          {" "}
+          b. Since the Company does not control signal power, its reception or
+          routing via Internet or any other means of electronic communication,
+          configuration of Client’s equipment or reliability of its connection,
+          the Company shall not be liable for any claims, losses, damages, costs
+          or expenses, including attorneys’ fees, caused directly or indirectly,
+          by any breakdown or failure of any transmission or communication
+          system or computer facility belonging to the Company.
+        </p>{" "}
+        <p>
+          c. The Client will be held responsible for transactions executed by
+          means of the Client’s password even if such transactions were not
+          executed by the Client.
         </p>
         <p>
           {" "}
-          6.3. The Company will, upon the Client’s written request, in general
-          disclose to the Client whether the Company may act as a Market Maker
-          in certain CFD Contracts.
+          d. The identification or use of any third party products, services or
+          websites is not an endorsement by the Company of such services,
+          products of websites. The Company accepts no responsibility or
+          liability of any kind in respect of any materials on any website which
+          is not under the Company’s direct control.
         </p>
+        <h2>6. Become a Member </h2>
         <p>
-          {" "}
-          6.4. When acting as a Market Maker, the Execution Venue will under
-          normal market circumstances quote the Client bid and ask prices.
-        </p>
-        <p>
-          {" "}
-          6.5. In order for the Company to quote prices with the swiftness
-          normally associated with speculative trading, the Company may have to
-          rely on available price or available information that may later prove
-          to be faulty due to specific market circumstances, for instance, but
-          not limited to, lack of liquidity in or suspension of an asset or
-          errors in feeds from information providers or quotes from
-          Counter-parties. If so and if the Company has acted in good faith when
-          providing the price to the Client, the Company may cancel the trade
-          with the Client but shall do so within reasonable time and shall
-          provide the Client with a full explanation for the reason for such
-          cancellation.
-        </p>
-        <p>
-          {" "}
-          6.6. Following execution of any position with a Client, the Execution
-          Venue may at its reasonable discretion subsequently offset each such
-          client position with another Client position, or a position with one
-          of the Execution Venue’s Counter-parties or retain a proprietary
-          position in the market with the intention to obtain trading profits
-          from such positions. Such decisions and actions may therefore result
-          in the Execution Venue offsetting client positions at prices different
-          – sometimes significantly different – from prices quoted to Clients,
-          resulting in trading profits or losses for the Execution Venue. This
-          in turn can raise the possibility of the Client incurring what may be
-          seen as an implied cost (i.e. the difference between the price at
-          which the Client traded with the Execution Venue and the price at
-          which the Execution Venue subsequently traded with Counter-parties
-          and/ or other Clients) due to any profits realized by the Execution
-          Venue as a result of the Market Making function. However the Market
-          Making function may involve significant costs to the Execution Venue
-          if the market moves against it as compared to the price at which it
-          traded with the Client.
-        </p>
-        <p>
-          {" "}
-          6.8. The Client accepts that the Execution Venue in CFD contracts
-          where it acts as Market Maker may hold positions that are contrary to
-          positions of the Client, resulting in potential conflicts of interest
-          between the Execution Venue and the Client.
-        </p>
-        <p>
-          {" "}
-          6.9. In markets, where the Execution Venue acts as a Market Maker, the
-          Client accepts that the Company has no obligation to quote prices to
-          clients at all times in any given market, nor to quote such prices to
-          clients with a specific maximum spread.
-        </p>
-        <p>
-          {" "}
-          6.10. The Client acknowledges, recognizes and accepts that the price
-          quoted to the Client includes a spread when compared with the price to
-          which the Execution Venue may have covered or expected to be able to
-          cover the Contract in a trade with another client or a Counterparty.
-          Furthermore, the Client acknowledges, recognizes and accepts that said
-          spread constitutes remuneration to the Company and that such spread
-          can not necessarily be calculated for all Contracts and that such
-          spread will not be specified at the Trade Confirmation or otherwise
-          revealed to the Client.
-        </p>
-        <p>
-          {" "}
-          6.11. Any commission costs, interest charges, costs associated to and
-          included in the spreads quoted by the Execution Venue as a Market
-          Maker in certain markets and other fees and charges will consequently
-          influence the Client’s trading result and will have a negative effect
-          on the Client’s trading performance compared to a situation if such
-          commission costs, interest charges, costs associated to and included
-          in the spreads did not apply.{" "}
-        </p>
-        <p>
-          a. In the case that the client account equity is equal or exceeds
-          300,000 USD (or currency equivalent) and there are open trades of 50
-          lots or more, the Company reserves the right to adjust the leverage of
-          the underlying trading account to 1:75. If this is the case the
-          Company will inform the Client by email.{" "}
-        </p>
-        <p>
-          b. If the Client is an active trader and is undertaking numerous
-          transactions, the total impact of visible as well as not visible costs
-          may be significant. Consequently the Client may have to obtain
-          significant profits in the markets in order to cover the costs
-          associated with trading activities with the Execution Venue. For very
-          active Clients, such costs may over time exceed the value of the
-          margin deposited. Normally, when trading margined derivatives, the
-          lower the percentage of the applicable margin rate, the higher the
-          proportion of the costs associated with executing a transaction.
-          Margined derivatives are derivatives such as CFD’s that can be traded
-          using a leverage of higher than 1:1.{" "}
-        </p>
-
-        <p>
-          6.12. The Client is specifically made aware that in the area of market
-          making in foreign exchange, OTC foreign exchange options, CFD
-          Contracts and other OTC products, significant implied costs can arise
-          as a consequence of the profits made by the Execution Venue performing
-          in its capacity as a Market Maker.{" "}
-        </p>
-        <p>
-          6.13. The Execution Venue’s performance as a Market Maker may
-          negatively affect the Client’s Account with the Execution Venue and
-          the said implied costs are neither directly visible nor directly
-          quantifiable for the Client at any time.{" "}
-        </p>
-        <p>
-          6.14. The Execution Venue is at no time obliged to disclose any
-          details of its performance or income produced as a Market Maker or
-          otherwise related to other commissions, charges and fees.{" "}
-        </p>
-        <p>
-          6.15. The Client is specifically made aware that CFD Contracts may be
-          OTC products quoted by the Execution Venue whilst operating as a
-          Market Maker and not traded on a recognized stock exchange. As a
-          result, the description above of the implied, not visible costs
-          related to the Execution Venue performance as a Market Maker may also
-          apply to any CFD Contract.{" "}
-        </p>
-        <p>
-          6.16. Due to low liquidity and/or or high volatility and widened
-          spreads, placing of pending orders around some Economic Announcements
-          may be restricted.{" "}
-        </p>
-        <p>
-          6.17. The Company reserves the right, at its sole discretion, to
-          delete any Pending Orders older than three (3) months from the
-          Clients’ trading account(s). Pending Order is a “Buy Limit”, “Buy
-          Stop”, “Sell Limit” or “Sell Stop” order, as per the Company’s Order
-          Execution Policy. Note: All Pending Orders on Shares CFDs and
-          Commodities CFDs will be automatically closed during market breaks. In
-          case any orders on the aforementioned assets are left pending, they
-          will be automatically deleted after the daily market closure time.{" "}
-        </p>
-
-        <h2>7. Become a Member </h2>
-        <p>
-          7.1. You can join and become a part of JayTradz, hereinafter know as
+          6.1. You can join and become a part of JayTradz, hereinafter know as
           (“Member”). To become a Member, you must be at least 18 years of age
           and have reached the age of majority in Your state of residence. The
           membership is purchased on JayTradz.com. As a Member, you also have
@@ -525,18 +236,18 @@ const Content = () => {
           concerning JayTradz products and services.
         </p>
         <p>
-          7.2. Rejection to become a Member JayTradz may reject Your application
+          6.2. Rejection to become a Member JayTradz may reject Your application
           to become a Member without giving any reason for the rejection.{" "}
         </p>
         <p>
-          7.3. Restricted countries The following countries are restricted and,
+          6.3. Restricted countries The following countries are restricted and,
           you are not allowed to become a Member if you are a resident, citizen
           from any of the following countries: Afghanistan, Belize, Cuba, Iran,
           Islamic Republic of Iraq, North Korea, South Sudan, St. Vincent and
           Grenadine, Canada and Syria.{" "}
         </p>
         <p>
-          7.4. Access to back office As a Member of JayTradz, you will be
+          6.4. Access to back office As a Member of JayTradz, you will be
           allowed to log in at Your back-office at the website
           https://JayTradz.com, the (“Back- Office”). In the Back-Office You
           will find information about JayTradz and the products or services that
@@ -545,7 +256,7 @@ const Content = () => {
           services that JayTradz from time to time offers.{" "}
         </p>
         <p>
-          7.5. E-Mail: Electronic Notification When You are approved as a Member
+          6.5. E-Mail: Electronic Notification When You are approved as a Member
           with JayTradz, You expressly consent to receive any notices,
           announcements, agreements, disclosures, reports, documents,
           communications concerning new products, services, or other records or
@@ -555,13 +266,13 @@ const Content = () => {
           JayTradz..
         </p>
         <p>
-          7.6. Introduce and Refer Member As a Member, you can introduce and
+          6.6. Introduce and Refer Member As a Member, you can introduce and
           refer new Members to JayTradz. The only way You, as a Member can be
           rewarded is if You or any of the Member’s You have direct or indirect
           referred to JayTradz acquires any product or services from JayTradz.{" "}
         </p>
         <p>
-          7.7. Solicitation, earnings and advice Disclaimer JayTradz is not
+          6.7. Solicitation, earnings and advice Disclaimer JayTradz is not
           responsible for any errors or omissions contained in any disseminated
           content at the Website, nor liable for any loss incurred as a result
           of using the content of the webpage in any way. JayTradz has not
@@ -590,6 +301,24 @@ const Content = () => {
           materially from those presently anticipated. Most forward-looking
           statements include using the following words: “expects“, “will“,
           “anticipates“, “estimates“, “believes“, “may“, “could“, or “might“.{" "}
+        </p>
+        <h2>7. Third-Party Links</h2>
+        <p>
+          ICSC [or any Member] may provide links to third-party websites. These
+          links are provided solely as a convenience to you and not as an
+          endorsement by ICSC of the contents on such third-party websites. If
+          you choose to purchase any product or service from a third-party site,
+          your relationship is with that third party. ICSC is not responsible
+          for the content of linked third-party sites. ICSC exercises no control
+          whatsoever over such other websites and web-based resources, does not
+          make any representations regarding the content or accuracy of
+          materials on such third-party websites and is not responsible or
+          liable for the availability thereof or the content, advertising,
+          products or other materials contained thereon. ICSC shall not be
+          responsible or liable, directly or indirectly, for any damage or loss
+          incurred or suffered by any user in connection therewith. You
+          acknowledge your use of these third-party websites is at your sole
+          risk.
         </p>
         <h2>8. Proprietary rights and Trademarks</h2>
         <p>
@@ -741,20 +470,23 @@ const Content = () => {
         <p>
           11.2.Termination of Your status as a Member You can at any time,
           subject to JayTradz refund policy, terminate Your status as a Client
-          and Member by sending an e-mail to info@JayTradz.com. JayTradz can at
-          any point decide to terminate Your status as a Client and/or Member
-          without giving any reason for the termination. The termination will be
-          effective immediately. JayTradz reserves the right to terminate Your
-          status as a Client and Member in order to comply with applicable laws,
-          protect its property or the property of others, ensure the safety of
-          JayTradz and others or if JayTradz reasonably determines that a
-          registrant has or is likely to engage in any activity that violates
-          these T&C for Clients and Member. Once the termination has been
-          carried out, this is displayed on the start page in the back-office of
-          the Member. JayTradz will also send You an automatic notification of
-          termination by e-mail to the email address that You have registered
-          with JayTradz. In the event of termination, any unredeemed Rewards
-          Points will be forfeited.
+          and Member by sending an e-mail to{" "}
+          <a className="chng" href="mailto:info@JayTradz.com">
+            info@JayTradz.com
+          </a>{" "}
+          . JayTradz can at any point decide to terminate Your status as a
+          Client and/or Member without giving any reason for the termination.
+          The termination will be effective immediately. JayTradz reserves the
+          right to terminate Your status as a Client and Member in order to
+          comply with applicable laws, protect its property or the property of
+          others, ensure the safety of JayTradz and others or if JayTradz
+          reasonably determines that a registrant has or is likely to engage in
+          any activity that violates these T&C for Clients and Member. Once the
+          termination has been carried out, this is displayed on the start page
+          in the back-office of the Member. JayTradz will also send You an
+          automatic notification of termination by e-mail to the email address
+          that You have registered with JayTradz. In the event of termination,
+          any unredeemed Rewards Points will be forfeited.
         </p>
         <h2>12. Legal Actions </h2>
         <p>
