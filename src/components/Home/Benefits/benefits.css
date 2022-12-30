@@ -1,0 +1,156 @@
+.perks-section {
+    flex-direction: column;
+    padding: 0 40px;
+    min-height: 80vh;
+    display: flex;
+    background: #41BCD8;
+    mix-blend-mode: normal;
+    justify-content: center;
+}
+
+.perks-flex {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+}
+
+.perks-left {
+    width: 40%;
+}
+
+.perks-left h1 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 60px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+
+}
+
+.perks-left p {
+    font-style: normal;
+    margin-top: 5px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    color: #FFFFFF;
+}
+
+.perks-right {
+    width: 50%;
+}
+
+.slider-card {
+    position: relative;
+    margin: 50px 0;
+    background: #FFFFFF;
+    border: 2px solid rgba(0, 0, 0, 0.02);
+    box-shadow: 5px 15px 15px rgba(0, 0, 0, 0.04);
+    border-radius: 14px;
+    /* height: 150px; */
+    padding: 30px 30px 30px 30px;
+    width: 90%;
+    min-height: 140px;
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+
+.card-text p {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 25px;
+    text-align: center;
+    color: #383751;
+}
+
+.float-ico img {
+    width: 40px;
+}
+
+.float-ico {
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+
+    margin: 0 auto;
+
+    margin-top: -35px;
+    background: #ffffff;
+    text-align: center;
+    display: flex;
+    /* padding: 10px; */
+    justify-content: center;
+    align-items: center;
+    border-radius: 85px;
+
+}
+
+.slick-dots li button, .slick-dots li.slick-active button:before, .slick-dots li button:before {
+    color: white !important;
+}
+
+@media (max-width:1120px) {
+    .perks-right {
+        width: 56%;
+    }
+
+
+}
+
+@media (max-width:980px) {
+
+    .perks-flex {
+        flex-direction: column;
+    }
+
+    .perks-left {
+        width: 100%;
+    }
+
+    .perks-section {
+        padding: 40px;
+    }
+
+    .perks-right {
+        width: 100%;
+    }
+
+    .slider-card {
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media (max-width:550px) {
+    .perks-section {
+        padding: 40px 20px;
+    }
+
+    .slider-card {
+        padding: 10px;
+    }
+
+    .card-text p {
+        font-size: 15px;
+    }
+
+    .perks-left h1 {
+        font-size: 28px;
+    }
+}
+
+@media (max-width:400px) {
+    .slider-card {
+        margin-left: auto;
+        margin-right: auto;
+        min-height: 160px;
+    }
+}

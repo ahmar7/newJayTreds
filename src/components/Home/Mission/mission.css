@@ -1,0 +1,112 @@
+.mission-bg {
+    height: 80vh;
+    background-image: url("../../../assets/img/MissionBg.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    padding: 0 40px;
+    position: relative;
+
+}
+
+.mission-head {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 38px;
+    text-transform: uppercase;
+
+    /* Black & White/White */
+
+    color: #FFFFFF;
+
+
+
+}
+
+.mission-detail {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    width: 745px;
+    margin-top: 20px;
+    color: #FFFFFF;
+}
+
+.upper-dots {
+    position: absolute;
+    top: 0;
+
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    margin-top: 25px;
+    text-align: center;
+}
+
+.lower-dots {
+    bottom: 0;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    text-align: center;
+    margin-bottom: 10px;
+    position: absolute;
+}
+
+@media (max-width:1100px) {
+    .mission-detail {
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        width: 570px;
+        margin-top: 20px;
+        color: #FFFFFF;
+    }
+}
+
+@media (max-width:768px) {
+    .mission-detail {
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        width: auto;
+        margin-top: 20px;
+        color: #FFFFFF;
+    }
+}
+
+@media (max-width:550px) {
+    .mission-detail {
+        margin-bottom: 30px;
+    }
+
+    .mission-head {
+        margin-top: 30px;
+        font-size: 28px;
+    }
+
+    .mission-bg {
+        padding: 0 20px;
+    }
+
+    .upper-dots img {
+        width: 70%;
+    }
+
+    .lower-dots {
+        margin-top: 30px;
+    }
+
+    .lower-dots img {
+        width: 35%;
+    }
+}

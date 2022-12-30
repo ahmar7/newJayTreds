@@ -1,0 +1,168 @@
+.header-section {
+    padding-top: 70px;
+}
+
+.header-bg {
+    height: 98vh;
+    background-image: url("../../../assets/img/HeaderBg.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+
+.inner-bg {
+    height: 98vh;
+    background-image: url("../../../assets/img/BgOverlay.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    padding: 0 40px;
+
+}
+
+.overlay-content .italic {
+    font-family: 'Montserrat';
+    font-style: italic;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 24px;
+    text-transform: uppercase;
+    color: #FECD3E;
+}
+
+.blk {
+    display: block;
+}
+
+.clr {
+    display: block;
+    color: #41BCD8
+}
+
+.head {
+    margin-top: 10px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 66px;
+    line-height: 70px;
+
+    text-transform: uppercase;
+
+
+    color: #FFFFFF;
+}
+
+.header-detail {
+    margin-top: 10px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+
+
+    color: #FFFFFF;
+}
+
+.header-discord {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.header-discord h3 {
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    color: #FFFFFF;
+}
+
+.header-discord a {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+    padding: 18px 41px;
+    gap: 10px;
+
+    /* width: 194px; */
+    /* height: 56px; */
+
+    background: #41BCD8;
+    border-radius: 6px;
+}
+
+@media (max-width:768px) {
+    .head {
+        margin-top: 10px;
+
+        font-weight: 700;
+        font-size: 36px;
+        line-height: initial;
+
+        color: #FFFFFF;
+    }
+
+    .header-detail .blk, .head .blk,
+    .head .clr {
+        display: inline;
+    }
+
+    .header-discord {
+
+        margin-top: 20px;
+    }
+
+    .header-discord a {
+
+        font-weight: 400;
+
+        font-size: 15px;
+
+        padding: 13px 18px;
+
+        border-radius: 6px;
+    }
+
+
+}
+
+@media (max-width:550px) {
+    .inner-bg {
+        padding: 0 20px;
+    }
+
+    .header-discord h3 {
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 15px;
+        color: white;
+    }
+
+    .header-bg {
+        height: 92vh;
+
+
+    }
+
+    .inner-bg {
+        height: 92vh;
+
+
+    }
+
+}

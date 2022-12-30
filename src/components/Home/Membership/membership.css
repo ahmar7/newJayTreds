@@ -1,0 +1,153 @@
+.membership-section {
+    margin-top: 7rem;
+    margin-bottom: 7rem;
+}
+
+.section-heading {
+    font-weight: 700;
+    font-size: 38px;
+
+    text-align: center;
+    text-transform: uppercase;
+
+    /* Grayscale / 900 */
+
+    color: #121127;
+}
+
+.section-detail {
+    font-weight: 400;
+    font-size: 16px;
+    margin-top: 15px;
+
+    text-align: center;
+
+
+    color: rgba(18, 17, 39, 0.72);
+}
+
+.membership-cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0 100px;
+    flex-wrap: wrap;
+    margin-top: 50px;
+
+}
+
+.indiv-membership {
+    margin: 15px 0;
+    background: #FFFFFF;
+    border: 1px solid #E9E9E9;
+    border-radius: 8px;
+    width: 32%;
+    min-height: 200px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.rectangle {
+    width: 100%;
+}
+
+.membership-name {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.membership-name h3 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+
+
+    color: #1A1A1A;
+}
+
+.rating span {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 18px;
+
+    text-transform: uppercase;
+    margin-left: 10px;
+    color: #41BCD8;
+}
+
+.membership-btn {
+    margin-top: 20px;
+    width: 100%;
+}
+
+.membership-btn button {
+    padding: 10px 22px;
+
+    cursor: pointer;
+
+    width: 100%;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+    border: none;
+    outline: none;
+    color: white;
+    background: #23A5C7;
+    border-radius: 6px;
+}
+
+@media (max-width:1110px) {
+    .membership-cards {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 0 50px;
+        flex-wrap: wrap;
+        margin-top: 30px;
+    }
+}
+
+@media (max-width:980px) {
+
+    .indiv-membership {
+        width: 300px;
+    }
+
+    .section-detail {
+        padding: 0 50px;
+
+    }
+
+    .membership-cards {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        padding: 0 50px;
+        flex-wrap: wrap;
+        margin-top: 30px;
+    }
+}
+
+@media (max-width:700px) {
+    .indiv-membership {
+        width: 80%;
+    }
+
+    .membership-cards {
+        padding: 0
+    }
+
+    .section-detail {
+        padding: 0 20px;
+    }
+
+    .membership-section {
+        margin-top: 5rem;
+        margin-bottom: 5rem;
+    }
+}

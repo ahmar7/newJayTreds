@@ -1,0 +1,396 @@
+.pt-section {
+    background-color: white !important;
+}
+
+.point-box {
+    background: #FFFFFF;
+    /* Grayscale / 500 */
+
+    border: 1px solid #6C6B80;
+    border-radius: 8px;
+    padding: 30px 20px;
+    width: 300px;
+    margin: 0 auto;
+}
+
+.point-number {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 61px;
+    text-align: center;
+    color: #23A5C7;
+
+}
+
+.point-box p {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 20px;
+    color: #16212C;
+}
+
+.wallet-instruction {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    margin-top: 60px;
+    text-align: center;
+
+    /* Grayscale / 900 */
+
+    color: #121127;
+}
+
+.wallet-address {
+    padding: 15px 0px;
+
+    width: 50vw;
+    margin: 0 auto;
+    margin-top: 30px;
+
+    /* height: 50px; */
+    background: #41BCD8;
+    border-radius: 4px;
+}
+
+.wallet-address p {
+    font-style: italic;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 29px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.point-boxes {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.indiv-box {
+    margin: 0 15px;
+    width: 246px;
+}
+
+.border-box {
+    height: 180px;
+
+    background: #FFFFFF;
+
+    border: 1px solid #6C6B80;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 0 5px;
+    box-sizing: border-box;
+}
+
+.border-box p {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    margin-top: 15px;
+    font-size: 18px;
+
+    text-align: center;
+    text-transform: uppercase;
+    color: #41BCD8;
+
+}
+
+.indiv-box h3 {
+    margin-top: 20px;
+    font-style: normal;
+    font-weight: 700;
+    text-align: center;
+    font-size: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #16212C;
+}
+
+.suggestion-line {
+    margin-top: 60px;
+}
+
+.suggestion-line p {
+
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    text-align: center;
+    color: rgba(18, 17, 39, 0.72);
+}
+
+.copyBtn img {
+    margin-right: 10px;
+}
+
+.copyBtn {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+    padding: 18px 41px;
+    margin-top: 30px !important;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    width: max-content;
+    margin: 0 auto;
+    text-align: center;
+    background: #41BCD8;
+    border-radius: 6px;
+}
+
+.divider {
+    border-top: 1px solid #23A5C7;
+    margin: 50px auto;
+    width: 80vw;
+
+}
+
+.background-box {
+    display: flex;
+    justify-content: center;
+
+}
+
+.bx {
+    /* padding: 0px 40px; */
+    margin: 0 15px;
+
+    width: 280px;
+    border-radius: 8px;
+}
+
+.bx-bg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 0;
+    border-radius: 8px;
+    background: #41BCD8;
+
+}
+
+.bx-bg h2 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+
+    color: #FFFFFF;
+
+}
+
+.bx h3 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #16212C;
+    margin-top: 30px;
+}
+
+.tp {
+    margin-top: 30px;
+}
+
+.horizontal-dots {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    text-align: right;
+    margin-bottom: 50px;
+}
+
+.vertical-dots {
+    position: absolute;
+    left: 0;
+    text-align: left;
+    bottom: 0;
+    margin-bottom: 150px;
+}
+
+@media (max-width:1120px) {
+    .point-boxes {
+        flex-wrap: wrap;
+        margin-top: 20px
+    }
+
+    .indiv-box {
+        width: 33%;
+        margin-top: 25px;
+        margin-bottom: 25px;
+    }
+
+    .indiv-box h3 {
+        margin-top: 9px;
+    }
+
+    .wallet-address {
+        width: 80vw;
+    }
+
+    .pt-section {
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+
+    .point-box {
+        background: #FFFFFF;
+        border: 1px solid #6C6B80;
+        border-radius: 8px;
+        padding: 30px 10px;
+        width: 280px;
+        margin-top: 20px;
+    }
+}
+
+@media (max-width:768px) {
+    .point-number {
+        font-style: normal;
+        font-weight: 700;
+        font-size: 28px;
+    }
+
+    .point-box p {
+
+        font-weight: 600;
+        font-size: 18px;
+    }
+
+    .wallet-address {
+        width: auto;
+        margin-top: 20px;
+    }
+
+    .wallet-instruction {
+        margin-top: 30px;
+        font-size: 20px;
+    }
+
+    .point-box {
+
+        padding: 20px 10px;
+        width: 250px;
+        margin-top: 0px;
+    }
+
+    .indiv-box {
+        width: 40%;
+    }
+
+    .horizontal-dots, .vertical-dots {
+        display: none;
+    }
+
+    .bx-bg {
+
+        padding: 30px 0;
+    }
+
+    .bx-bg h2 {
+        font-size: 30px;
+    }
+
+    .bx h3 {
+        margin-top: 15px;
+    }
+
+    .bx {
+        width: 250px;
+    }
+}
+
+@media (max-width:600px) {
+    .pt-section {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .wallet-address p {
+        font-style: italic;
+        font-weight: 500;
+        font-size: 15px;
+    }
+
+    .wallet-address {
+        padding: 10px 5px;
+        overflow: auto;
+    }
+
+    .wallet-instruction {
+        margin-top: 20px;
+        font-size: 16px;
+    }
+
+    .point-box p {
+        font-weight: 700;
+        font-size: 16px;
+    }
+
+    .bx h3 {
+        font-size: 18px;
+    }
+
+}
+
+@media (max-width:550px) {
+    .indiv-box {
+        width: 100%;
+    }
+
+    .border-box {
+        height: 150px;
+    }
+
+    .indiv-box h3 {
+        font-size: 18px;
+    }
+
+    .wallet-address p {
+        font-weight: 500;
+        font-size: 13px;
+    }
+
+    .suggestion-line p {
+        font-size: 16px;
+    }
+
+    .copyBtn {
+        padding: 15px 15px;
+        font-size: 15px;
+    }
+
+    .background-box {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .bx {
+        margin: 20px 0;
+    }
+
+    .bx h3 {
+        margin-top: 10px;
+        font-size: 16px;
+    }
+}

@@ -1,0 +1,142 @@
+.footer-section {
+    background: #F6F5F6;
+    padding: 100px 50px 20px 50px;
+}
+
+.footer-outer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+.loction-line {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    margin: 20px 0px;
+}
+
+.loction-line span {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    margin-left: 10px;
+
+    color: #121127;
+}
+
+.social-icons {
+    display: flex;
+    flex-direction: row;
+}
+
+.social-icons a {
+
+    margin: 0 5px;
+}
+
+.navigation h2 {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    /* identical to box height, or 24px */
+
+    letter-spacing: 0.8px;
+    text-transform: uppercase;
+
+    /* Grayscale / 400 */
+
+    color: #9D9CAF;
+
+}
+
+.navigation {
+    margin: 0 0 20px 0 !important;
+}
+
+.loction-line ul {
+    list-style: none;
+    padding: 0;
+
+}
+
+.loction-line ul li {
+    margin: 13px 0;
+    list-style: none;
+
+}
+
+.loction-line ul li a {
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+
+
+    color: #121127;
+
+}
+
+.copyright {
+    border-top: 1px solid rgba(0, 0, 0, 0.12);
+    ;
+    margin-top: 20px;
+}
+
+.copyright p {
+    padding-top: 20px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+
+    text-align: center;
+    color: #121127;
+
+}
+
+.footer-img {
+    width: 200px;
+}
+
+.mbl-only {
+    display: none;
+}
+
+@media (max-width:1000px) {
+    .footer-section {
+        background: #F6F5F6;
+        padding: 100px 20px 20px 20px;
+    }
+}
+
+@media (max-width:768px) {
+    .footer-section {
+        background: #F6F5F6;
+        padding: 50px 20px 20px 20px;
+    }
+
+    .footer-outer {
+        flex-direction: column;
+    }
+
+    .text-center .loction-line {
+        justify-content: center;
+    }
+
+    .text-center {
+
+        text-align: center;
+    }
+
+    .mbl-only {
+        display: inherit;
+    }
+
+    .desk-only {
+        display: none;
+    }
+}

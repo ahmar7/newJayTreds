@@ -1,0 +1,164 @@
+.rewards-section {
+    position: relative;
+    padding: 100px 0 100px 0;
+    background: rgba(18, 17, 39, 0.04);
+
+}
+
+.left-reward {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.right-reward {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.left-reward img {
+    width: 100%;
+}
+
+.rewards-section .section-detail {
+    margin-top: 20px !important;
+    width: 920px;
+    margin: 0 auto;
+}
+
+.sliders {
+    margin-top: 40px;
+}
+
+.section-slider {
+    cursor: pointer;
+
+
+    height: 55px;
+    padding: 0 30px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.main-slide {
+    cursor: pointer;
+
+    background: #FFFFFF;
+    border: 1px solid #E9E9E9;
+    border-radius: 8px;
+    /* width: 60vw; */
+
+    height: 55px;
+    width: 856px;
+    margin: 20px auto;
+
+}
+
+.no-border {
+    /* border-bottom-right-radius: 0px !important;
+    border-bottom-left-radius: 0 !important; */
+    height: auto;
+
+}
+
+.slider-para {
+
+    border-top: 1px solid #E9E9E9;
+
+    border-bottom-right-radius: 8px;
+    border-bottom-left-radius: 8px;
+    background-color: white;
+    /* border: 1px solid #E9E9E9; */
+    /* margin-top: 1px; */
+    padding: 20px 30px;
+    /* border-top: none; */
+}
+
+.rotate {
+    transform: rotate(180deg);
+}
+
+.hide-it {
+    display: none;
+}
+
+.left-head {
+    display: flex;
+    align-items: center;
+}
+
+.left-head h3 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    margin-left: 20px;
+    text-align: center;
+    color: #121127;
+}
+
+@media (max-width:980px) {
+    .rewards-section .section-detail {
+        width: 90vw;
+        padding: 0;
+    }
+
+    .main-slide {
+        cursor: pointer;
+        background: #FFFFFF;
+        border: 1px solid #E9E9E9;
+        border-radius: 8px;
+        /* width: 60vw; */
+        height: auto;
+        width: 90vw;
+        padding: 0;
+        margin: 20px auto;
+    }
+}
+
+@media (max-width:768px) {
+    .right-reward img, .left-reward img {
+        width: 160px;
+    }
+
+
+}
+
+@media (max-width:550px) {
+    .rewards-section .section-detail {
+        width: auto;
+        padding: 0 20px;
+    }
+
+    .main-slide {
+
+        width: auto;
+        margin: 20px auto;
+    }
+
+    .sliders {
+        padding: 0 20px;
+    }
+
+    .left-head h3 {
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 15px;
+        margin-left: 10px;
+        text-align: left;
+        color: #121127;
+    }
+
+    .section-slider {
+
+        padding: 0 15px;
+    }
+
+    .slider-para {
+        padding: 20px 15px;
+    }
+}

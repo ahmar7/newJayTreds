@@ -1,0 +1,229 @@
+.minting-cards {
+    /* margin-top: 100px; */
+    padding: 130px 40px;
+}
+
+.card-name {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.minting-name {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 38px;
+    text-transform: uppercase;
+    color: #121127;
+}
+
+.stars img {
+    /* width: 20px; */
+    margin: 0 5px;
+}
+
+.plan-cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+.single-plan {
+    width: 32%;
+}
+
+.upper-block {
+    background: #FFFFFF;
+    box-shadow: 0px 15px 80px rgba(175, 151, 123, 0.2);
+    border-radius: 8px;
+    text-align: center;
+    padding: 20px;
+}
+
+.upper-block img {
+
+    width: 100%;
+}
+
+.upper-block h2 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    text-align: center;
+    padding-top: 10px;
+    color: #1A1A1A;
+}
+
+.lower-block {
+    margin-top: 20px;
+    background: #FFFFFF;
+    box-shadow: 0px 13px 26px rgba(175, 151, 123, 0.2);
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.minting-calc {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.calc {
+    background: #FFFFFF;
+    border: 1px solid #E9E9E9;
+    border-radius: 8px;
+    padding: 10px;
+    width: 60%;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.calc .minus-btn,
+.calc .plus-btn {
+    font-weight: 700;
+    font-size: 20px;
+
+    text-align: center;
+
+    color: #1A1A1A;
+    cursor: pointer;
+}
+
+.calc .minus-btn {
+    border-right: 1px solid #E9E9E9;
+    padding-right: 13px;
+}
+
+.calc .plus-btn {
+    border-left: 1px solid #E9E9E9;
+
+    padding-left: 13px;
+}
+
+.calc .quantity {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    text-align: center;
+
+    color: #1A1A1A;
+
+}
+
+.calc-btn {
+    width: 35%;
+}
+
+.calc-btn button {
+    box-sizing: border-box;
+    padding: 12px 0px;
+    border: none;
+    outline: none;
+    width: 100%;
+    background: #23A5C7;
+    border-radius: 6px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    /* identical to box height */
+
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+}
+
+.last {
+
+    margin-top: 20px;
+}
+
+.total-price {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 0;
+}
+
+.nm {
+    margin-top: 0;
+}
+
+.total-name, .total-ps {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+
+    text-transform: capitalize;
+
+    color: rgba(18, 17, 39, 0.72);
+}
+
+@media (max-width:980px) {
+    .plan-cards {
+        flex-direction: column;
+    }
+
+    .single-plan {
+        width: 380px;
+        margin: 30px auto;
+    }
+
+    .minting-name {
+
+        font-weight: 700;
+        font-size: 28px;
+
+    }
+}
+
+@media (max-width:550px) {
+    .minting-cards {
+        padding: 120px 20px;
+    }
+
+    .plan-cards {
+        flex-direction: column;
+    }
+
+    .single-plan {
+        width: 100%;
+        margin: 25px auto;
+    }
+
+    .minting-name {
+
+        font-weight: 700;
+        font-size: 24px;
+
+    }
+
+    .calc-btn button {
+        padding: 10px 0;
+    }
+
+    .calc {
+        padding: 8px;
+    }
+
+    .total-name, .total-ps {
+        font-size: 15px;
+        font-weight: 600;
+    }
+
+    .upper-block h2 {
+        font-size: 20px;
+    }
+
+    .stars img {
+        width: 20px;
+    }
+}

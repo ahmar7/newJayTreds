@@ -1,0 +1,39 @@
+.content-sec {
+    padding: 0 40px
+}
+
+.inner-content {
+    margin: 50px 0;
+}
+
+.inner-content p {
+    margin: 10px 0;
+}
+
+.inner-content h2 {
+    margin: 20px 0;
+}
+
+.list-dat {
+    padding: 0;
+    margin-left: 20px;
+}
+
+.order-li {
+    margin-left: 30px;
+}
+
+.order-li li {
+    font-weight: 500;
+}
+
+.light-weigh {
+    font-weight: 400 !important;
+    font-size: 18px;
+}
+
+@media (max-width:550px) {
+    .content-sec {
+        padding: 0 20px
+    }
+}

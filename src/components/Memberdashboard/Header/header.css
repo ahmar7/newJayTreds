@@ -1,0 +1,50 @@
+.membership-header {
+    padding-top: 70px;
+
+}
+
+.membershipBg {
+    background-image: url(../../../assets/img/DashboardHeader.png);
+
+    height: 30vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.left-overlay {
+    background-image: url(../../../assets/img/LeftOverlay.png);
+
+    height: 30vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.right-overlay {
+    background-image: url(../../../assets/img/RightOverlay.png);
+
+    height: 30vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-tag {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 38px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+@media (max-width:600px) {
+    .header-tag {
+        font-size: 22px;
+    }
+}

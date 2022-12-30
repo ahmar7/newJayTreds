@@ -1,0 +1,137 @@
+.minting-detail {
+    position: relative;
+    padding: 80px 40px;
+    background: rgba(18, 17, 39, 0.04);
+}
+
+.minting-benefits {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sec-para {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: rgba(18, 17, 39, 0.72);
+    margin: 20px 0;
+
+}
+
+.upper-sec h1 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 38px;
+    text-transform: uppercase;
+    color: #121127;
+}
+
+.middle-sec {
+    margin-top: 30px
+}
+
+.middle-sec h3 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    text-transform: uppercase;
+    color: #121127;
+
+}
+
+.sec-ul {
+    margin: 15px 0;
+    padding: 0;
+}
+
+.sec-ul li {
+    list-style: none;
+    margin: 7px 0;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: rgba(18, 17, 39, 0.72);
+
+}
+
+.top-mer {
+    margin-top: 40px !important;
+}
+
+.benefit-left {
+    width: 50%;
+}
+
+.benefit-right {
+    width: 50%;
+}
+
+.benefit-right img {
+    width: 100%;
+}
+
+.join-btn button {
+    text-align: left !important;
+    margin-left: 0 !important;
+}
+
+.join-btn {
+    margin-bottom: 50px;
+}
+
+@media (max-width:768px) {
+    .minting-benefits {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .benefit-right, .benefit-left {
+        width: 100%;
+    }
+
+    .benefit-right {
+        text-align: center;
+    }
+
+    .benefit-right img {
+        width: 400px;
+    }
+
+    .lower-block {
+        margin-top: 10px;
+    }
+}
+
+@media (max-width:550px) {
+    .upper-sec h1 {
+        font-size: 27px;
+    }
+
+    .sec-para {
+        margin: 10px 0;
+    }
+
+    .middle-sec h3 {
+        font-size: 20px;
+    }
+
+    .minting-detail {
+        padding: 50px 20px;
+    }
+
+    .middle-sec {
+        margin-top: 25px;
+    }
+
+    .top-mer {
+        margin-top: 30px !important;
+    }
+
+    .benefit-right img {
+        width: 80%;
+    }
+}
